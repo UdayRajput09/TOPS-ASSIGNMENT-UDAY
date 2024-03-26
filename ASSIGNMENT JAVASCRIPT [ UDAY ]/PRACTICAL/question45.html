@@ -1,0 +1,18 @@
+<!-- Q. 45 Write a JavaScript program to determine if a variable is array? -->
+
+
+<script>
+    function isArray(variable) {
+        // Check if the variable is an array using Array.isArray() method
+        return Array.isArray(variable);
+    }
+
+    // Example variables
+    const arr = [1, 2, 3];
+    const notArr = "This is not an array";
+
+    // Check if variables are arrays
+    console.log(isArray(arr));      // Output: true
+    console.log(isArray(notArr));   // Output: false
+
+</script>

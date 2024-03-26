@@ -1,0 +1,23 @@
+<!-- Q.23 Find the Character Is Vowel or Not ? -->
+
+
+<script>
+
+    function isVowel(char) {
+        // Convert the character to lowercase for case-insensitivity
+        const lowerChar = char.toLowerCase();
+
+        // Check if the character is a vowel
+        if (lowerChar === 'a' || lowerChar === 'e' || lowerChar === 'i' || lowerChar === 'o' || lowerChar === 'u') {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    // Test the function
+    console.log(isVowel('A')); // Output: true
+    console.log(isVowel('b')); // Output: false
+    console.log(isVowel('e')); // Output: true
+
+</script>

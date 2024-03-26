@@ -1,0 +1,23 @@
+// Q.12 WAP to convert years into days and days into years?
+
+<script>
+    function yearsToDays(years) {
+        const days = years * 365;
+        return days;
+    }
+
+    function daysToYears(days) {
+        const years = days / 365;
+        return years;
+    }
+
+    // Test the functions
+    const inputYears = 3;
+    const resultDays = yearsToDays(inputYears);
+    console.log(`${inputYears} years is equal to ${resultDays} days`);
+
+    const inputDays = 1095;
+    const resultYears = daysToYears(inputDays);
+    console.log(`${inputDays} days is equal to ${resultYears} years`);
+
+</script>

@@ -1,0 +1,29 @@
+<!-- // Q.29 Write to show
+// i. Monday to Sunday using switch case in JS?
+// ii. Vowel or Consonant using switch case in JS?
+
+
+// ii. Checking if a character is a vowel or consonant: -->
+
+<script>
+
+    function checkVowelOrConsonant(char) {
+        switch (char.toLowerCase()) {
+            case 'a':
+            case 'e':
+            case 'i':
+            case 'o':
+            case 'u':
+                console.log("Vowel");
+                break;
+            default:
+                console.log("Consonant");
+        }
+    }
+
+    // Test the function
+    checkVowelOrConsonant('A'); // Output: Vowel
+    checkVowelOrConsonant('b'); // Output: Consonant
+    checkVowelOrConsonant('o'); // Output: Vowel
+
+</script>

@@ -1,0 +1,47 @@
+<!-- Q.29 Write to show
+i. Monday to Sunday using switch case in JS?
+ii. Vowel or Consonant using switch case in JS?
+
+
+
+i. Displaying days of the week: -->
+
+<script>
+    function displayDayOfWeek(dayNumber) {
+        let day;
+
+        switch (dayNumber) {
+            case 1:
+                day = "Monday";
+                break;
+            case 2:
+                day = "Tuesday";
+                break;
+            case 3:
+                day = "Wednesday";
+                break;
+            case 4:
+                day = "Thursday";
+                break;
+            case 5:
+                day = "Friday";
+                break;
+            case 6:
+                day = "Saturday";
+                break;
+            case 7:
+                day = "Sunday";
+                break;
+            default:
+                day = "Invalid day";
+        }
+
+        console.log(day);
+    }
+
+    // Test the function
+    displayDayOfWeek(3); // Output: Wednesday
+    displayDayOfWeek(6); // Output: Saturday
+    displayDayOfWeek(8); // Output: Invalid day
+
+</script>

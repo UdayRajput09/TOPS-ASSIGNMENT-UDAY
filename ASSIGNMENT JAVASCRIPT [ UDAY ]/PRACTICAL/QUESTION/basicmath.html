@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Math</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        div {
+            padding: 70px 0px 0px 70px;
+            width: 25%;
+            height: 280px;
+            border: 2px solid black;
+            margin: 200px 0px 0px 500px;
+            font-weight: bold;
+            font-size: large;
+        }
+
+        button {
+            height: 20px;
+            width: 50px;
+            font-size: large;
+            font-weight: 200;
+            text-align: center;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+        }
+
+        input {
+            height: 25px;
+            width: 50%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div>
+        <h1>Math Opration</h1>
+        <br>
+
+        <label for="">Enter Number 1 :</label>
+        <input type="number" name="" id="inp-1">
+        <br>
+        <br>
+        <label for="">Enter Number 2 :</label>
+        <input type="number" name="" id="inp-2">
+        <br>
+        <br>
+
+        <button onclick="plus()">+</button>
+        <button onclick="minus()">-</button>
+        <button onclick="multi()">*</button>
+        <button onclick="divide()">/</button>
+        <button onclick="mod()">%</button>
+        <br>
+        <br>
+
+
+        <p>Answer is : <span id="res"></span></p>
+    </div>
+
+
+    <script>
+
+
+
+        function plus() {
+            let inp1 = +document.getElementById("inp-1").value;
+            let inp2 = +document.getElementById("inp-2").value;
+
+            result = inp1 + inp2;
+
+            document.getElementById("res").innerHTML = result;
+            document.getElementById("res").style.color = "blue";
+        }
+
+        function minus() {
+            let inp1 = +document.getElementById("inp-1").value;
+            let inp2 = +document.getElementById("inp-2").value;
+
+            result = inp1 - inp2;
+
+            document.getElementById("res").innerHTML = result;
+            document.getElementById("res").style.color = "blue";
+        }
+
+
+        function multi() {
+            let inp1 = +document.getElementById("inp-1").value;
+            let inp2 = +document.getElementById("inp-2").value;
+
+            result = inp1 * inp2;
+
+            document.getElementById("res").innerHTML = result;
+            document.getElementById("res").style.color = "blue";
+        }
+
+        function divide() {
+            let inp1 = +document.getElementById("inp-1").value;
+            let inp2 = +document.getElementById("inp-2").value;
+
+            result = inp1 / inp2;
+
+            document.getElementById("res").innerHTML = result;
+            document.getElementById("res").style.color = "blue";
+        }
+
+        function mod() {
+            let inp1 = +document.getElementById("inp-1").value;
+            let inp2 = +document.getElementById("inp-2").value;
+
+            result = inp1 % inp2;
+
+            document.getElementById("res").innerHTML = result;
+            document.getElementById("res").style.color = "blue";
+
+        }
+
+    </script>
+
+</body>
+
+</html>

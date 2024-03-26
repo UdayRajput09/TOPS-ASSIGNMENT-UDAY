@@ -1,0 +1,22 @@
+<!-- Q.46 Write a JavaScript program to clone an array? -->
+
+<script>
+    function cloneArray(array) {
+        // Use the spread operator (...) to create a shallow copy of the array
+        return [...array];
+    }
+
+    // Example array
+    const originalArray = [1, 2, 3, 4, 5];
+
+    // Clone the array
+    const clonedArray = cloneArray(originalArray);
+
+    // Modify the cloned array to demonstrate it's a separate copy
+    clonedArray.push(6);
+
+    // Display the original and cloned arrays
+    console.log("Original Array:", originalArray); // Output: Original Array: [1, 2, 3, 4, 5]
+    console.log("Cloned Array:", clonedArray);     // Output: Cloned Array: [1, 2, 3, 4, 5, 6]
+
+</script>

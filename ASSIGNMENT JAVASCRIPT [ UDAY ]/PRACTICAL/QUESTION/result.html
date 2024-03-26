@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result of IT</title>
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        .div-1 {
+            height: 420px;
+            width: 50%;
+            padding: 20px;
+            margin-left: 400px;
+            margin-top: 120px;
+            text-align: center;
+            border: 1px solid black;
+        }
+
+        table {
+            margin: auto;
+        }
+
+        td {
+            padding: 10px;
+            text-align: right;
+        }
+
+        input {
+            margin-left: 10px;
+        }
+
+        button {
+            margin-top: 10px;
+        }
+
+        .result {
+            margin-top: 20px;
+        }
+
+        .result-text {
+            display: inline-block;
+            margin-right: 60px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="div-1">
+        <h1>Marksheet for Information technology</h1>
+
+        <p>Enter marks</p>
+
+        <table>
+            <tr>
+                <td><label for="">1. C Language</label></td>
+                <td><input type="number" name="" id=""></td>
+            </tr>
+            <tr>
+                <td><label for="">2. C++ Language</label></td>
+                <td><input type="number" name="" id="inp-1"></td>
+            </tr>
+            <tr>
+                <td><label for="">3. Database</label></td>
+                <td><input type="number" name="" id="inp-2"></td>
+            </tr>
+            <tr>
+                <td><label for="">4. HTML</label></td>
+                <td><input type="number" name="" id="inp-3"></td>
+            </tr>
+            <tr>
+                <td><label for="">5. CSS</label></td>
+                <td><input type="number" name="" id="inp-4"></td>
+            </tr>
+            <tr>
+                <td><label for="">6. PHP</label></td>
+                <td><input type="number" name="" id="inp-5"></td>
+            </tr>
+            <tr>
+                <td><label for="">7. Core Java</label></td>
+                <td><input type="number" name="" id="inp-6"></td>
+            </tr>
+        </table>
+
+        <button onclick="result()">Result</button>
+
+        <div class="result">
+            <span class="result-text">Total is : <span id="total"></span></span>
+            <span class="result-text">Percentage is : <span id="percentage"></span></span>
+        </div>
+    </div>
+
+    <script>
+        function result() {
+            let inp1 = +document.getElementById("inp-1").value;
+            let inp2 = +document.getElementById("inp-2").value;
+            let inp3 = +document.getElementById("inp-3").value;
+            let inp4 = +document.getElementById("inp-4").value;
+            let inp5 = +document.getElementById("inp-5").value;
+            let inp6 = +document.getElementById("inp-6").value;
+
+            let total = inp1 + inp2 + inp3 + inp4 + inp5 + inp6;
+            document.getElementById("total").innerHTML = total;
+            document.getElementById("total").style.color = "blue";
+
+            let percentage = (total / 700) * 100;
+            percentage = percentage.toFixed(2);
+            document.getElementById("percentage").innerHTML = percentage;
+            document.getElementById("percentage").style.color = "blue";
+        }
+    </script>
+</body>
+
+</html>

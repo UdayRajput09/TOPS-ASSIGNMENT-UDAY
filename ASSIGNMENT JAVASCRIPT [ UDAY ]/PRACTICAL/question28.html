@@ -1,0 +1,23 @@
+// Q.28 Write to find the largest of three numbers in JS?
+
+<script>
+
+    function findLargestNumber(num1, num2, num3) {
+        let largestNumber;
+
+        if (num1 >= num2 && num1 >= num3) {
+            largestNumber = num1;
+        } else if (num2 >= num1 && num2 >= num3) {
+            largestNumber = num2;
+        } else {
+            largestNumber = num3;
+        }
+
+        return largestNumber;
+    }
+
+    // Test the function
+    console.log(findLargestNumber(8, 15, 5)); // Output: 15
+    console.log(findLargestNumber(20, 10, 30)); // Output: 30
+
+</script>
