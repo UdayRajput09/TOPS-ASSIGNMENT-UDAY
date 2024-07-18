@@ -1,0 +1,88 @@
+{
+  "user": [
+    {
+      "id": "1",
+      "profile": "https://png.pngtree.com/thumb_back/fh260/background/20230612/pngtree-man-wearing-glasses-is-wearing-colorful-background-image_2905240.jpg",
+      "name": "Uday",
+      "email": "udayrajput.3344@gmail.com",
+      "status": "unblock"
+    },
+    {
+      "id": "d312",
+      "profile": "https://pics.craiyon.com/2023-06-08/af8d104f879544eeaa1b9bd0af343833.webp",
+      "name": "check",
+      "email": "check@gmail.com",
+      "password": "123",
+      "cpassword": "123",
+      "status": "unblock"
+    },
+    {
+      "id": "4c1d",
+      "profile": "",
+      "name": "Uday Rajput",
+      "email": "uday.rajput991111@gmail.com",
+      "password": "1234",
+      "cpassword": "1234",
+      "status": "unblock",
+      "mobile": "8866946538"
+    },
+    {
+      "id": "7300",
+      "profile": "",
+      "name": "Uday Rajput",
+      "email": "uday.rajput991111@gmail.com",
+      "password": "1234",
+      "cpassword": "1234",
+      "status": "unblock",
+      "mobile": "8866946538"
+    },
+    {
+      "id": "0c82",
+      "profile": "",
+      "name": "rahul",
+      "email": "user1@gmail.com",
+      "password": "67",
+      "cpassword": "67",
+      "status": "unblock",
+      "mobile": "7576458097"
+    },
+    {
+      "id": "dc19",
+      "profile": "",
+      "name": "user10",
+      "email": "user10@gmail.com",
+      "password": "user10",
+      "cpassword": "user10",
+      "status": "unblock",
+      "mobile": "9065889921"
+    },
+    {
+      "id": "f87f",
+      "profile": "",
+      "name": "user5",
+      "email": "user5@gmail.com",
+      "password": "user5",
+      "cpassword": "user5",
+      "status": "unblock",
+      "mobile": "7576458097"
+    },
+    {
+      "id": "315b",
+      "profile": "",
+      "name": "user9",
+      "email": "user9@gmail.com",
+      "password": "user9",
+      "cpassword": "user9",
+      "status": "unblock",
+      "mobile": "8866946545"
+    }
+  ],
+  "admin": [
+    {
+      "id": "1",
+      "name": "admin",
+      "email": "admin@gmail.com",
+      "password": "123"
+    }
+  ]
+}
